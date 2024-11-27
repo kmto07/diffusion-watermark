@@ -22,7 +22,7 @@ def get_named_beta_schedule(schedule_name, num_diffusion_timesteps):
     The beta schedule library consists of beta schedules which remain similar
     in the limit of num_diffusion_timesteps.
     Beta schedules may be added, but should not be removed or changed once
-    they are committed to maintain backwards compatibility.
+    they are committed to maintain backwards compatibility.ff
     """
     if schedule_name == "linear":
         # Linear schedule from Ho et al, extended to work for any number of
